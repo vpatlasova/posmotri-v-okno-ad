@@ -273,3 +273,15 @@ ol {
   object-fit: cover;
   object-position: center;
 }
+
+.content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
