@@ -166,3 +166,35 @@ ol {
 .search-form__label:has(.search-form__checkbox):hover {
   text-decoration: underline;
 }
+
+.button {
+  min-block-size: 34px;
+  padding: 0;
+  border: 1px solid currentColor;
+  color: inherit;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.search-form__submit-button {
+  align-self: flex-end;
+  inline-size: 194px;
+}
+
+.more-button {
+  flex-shrink: 0;
+  inline-size: calc(100% - 6px);
+  margin-inline: 3px;
+}
